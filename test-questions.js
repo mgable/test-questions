@@ -1,7 +1,7 @@
 // Please save all your work in https://jsfiddle.net/ 
 // Return the link to your work
-// Answer five out of the six questions
-// Use test data when provided, however your functions should work with any similiar structured data
+// Answer five out of the seven questions
+// Use test data when provided, however your functions should work with any similiarly structured data
 // Use any additional libraries you like
 // If you have any questions about this test, please email mgable@marketshare.com
 
@@ -170,3 +170,20 @@ var data = [[[1,2,3,4,5],[[1],[2],[3],[4],[5],[6],[[1]]],[9,8,7,6,5,[1,2,3]]],[1
 // makeObject("foo.bar", "buzz") // returns {foo: {bar: "buzz"}}
 // makeObject("one.two.three", "foobar")  // returns {one: {two: {three: "foobar"}}}
 // makeObject("kingdom.phylum.class.order", "primates")  // returns {kingdom: {phylum: {class: {order: "primates"}}}}
+
+// 7: when sorting an array of names and acronyms, all of the acronyms are listed at the top. Please make it so sorting an array puts all items in the correct alphabetal order
+var data = [
+	'ACL',
+	'accelerated graphics port',
+	'ATM',
+	'Address Resolution Protocol',
+	'American Standard Code For Information Interchange',
+	'Active Server Page',
+	'ASP'
+]
+
+console.info(data.sort()) //["ACL", "ASP", "ATM", "Active Server Page", "Address Resolution Protocol", "American Standard Code For Information Interchange", "accelerated graphics port"]
+
+//What we want the return to be is ["ACL", "accelerated graphics port", "Address Resolution Protocol", "American Standard Code For Information Interchange", "Active Server Page", "ATM", "ASP"]
+
+
