@@ -1,30 +1,14 @@
 // Please save all your work in https://jsfiddle.net/ 
-// Return the link to your work
-// Answer five out of the seven questions
+// Return the jsfiddle.net link to your work
+// Answer five out of the six questions
 // Use test data when provided, however your functions should work with any similiarly structured data
 // Use any additional libraries you like
 // If you have any questions about this test, please email mgable@marketshare.com
 
-// 1: Refactor this function to make it scalable.
-var goto = function(evt, where, project, scenario, item, id){
-    if (evt && evt.stopPropagation){ evt.stopPropagation(); }
-    switch(where){
-        case "scenarioEdit": GotoService.scenarioEdit(project); break;
-        case "dashboard": GotoService.dashboard(project, scenario, item, id); break;
-        case "projects": GotoService.projects(project, scenario); break;
-        case "base": GotoService.base(project, scenario, item, id); break;
-        case "scenario": GotoService.scenario(project, scenario, item); break;
-        case "calculate": GotoService.calculate(project, scenario); break;
-        case "simulate": GotoService.simulate(); break;
-
-        default: GotoService.base(project, scenario, item, id); break;
-    }
-};
-
-// 2: Write a function that searches collection "projects" to find the object with the lowest "e" value and return that object's "i" value.
+// 1: Write a function that searches collection "projects" to find the object with the lowest "e" value and return that object's "i" value.
 var projects = [{i:1, e:41}, {i:5, e:4}, {i:3, e:2}, {i:1, e:90}, {i:5, e:40}, {i:3, e:20}];
 
-// 3: write a function that sorts collection "scenarios" by "lastModifiedOn" in descending order (most current first) and outputs the results.
+// 2: write a function that sorts collection "scenarios" by "lastModifiedOn" in descending order (most current first) and outputs the results.
 var scenarios = [
   {
     "id": 1,
@@ -159,19 +143,19 @@ var scenarios = [
     }
   }]
 
-// 4: write a function which takes an array of words and a string and finds all occurances of each array word in the string and returns that data as a collection.
+// 3: write a function which takes an array of words and a string and finds all occurances of each array word in the string and returns that data as a collection.
 // findWords(["cat", "at"], "Of the many cats in the catacombs, only the black cat and the white cat where at bat") // returns [{"cat": 2}, {"at": 1}]
 // findWords(["foo", "bar", "a"], "after a foo, bar and foobar, we all went to a bar ") // returns [{"foo": 1}, {"bar": 2}, {"a":2}]
 
-// 5: Write a function that sums all the values of "data". 
+// 4: Write a function that sums all the values of "data". 
 var data = [[[1,2,3,4,5],[[1],[2],[3],[4],[5],[6],[[1]]],[9,8,7,6,5,[1,2,3]]],[10,20,30,40,50],[21,33,55,66,77,88],[11,12,13,14,15,16,17,18,19],[[1000,1234],154,2122],[45,66,88,99,100,101]];
 
-// 6: write function "makeObject" which takes two strings as parameters and returns an object. The first parameter will be the nested object made, and the second parameter will be the value of that object.
+// 5: write function "makeObject" which takes two strings as parameters and returns an object. The first parameter will be the nested object made, and the second parameter will be the value of that object.
 // makeObject("foo.bar", "buzz") // returns {foo: {bar: "buzz"}}
 // makeObject("one.two.three", "foobar")  // returns {one: {two: {three: "foobar"}}}
 // makeObject("kingdom.phylum.class.order", "primates")  // returns {kingdom: {phylum: {class: {order: "primates"}}}}
 
-// 7: when sorting an array of names and acronyms, all of the acronyms are listed at the top. Please make it so sorting an array puts all items in the correct alphabetal order
+// 6: when sorting an array of names and acronyms, all of the acronyms are listed at the top. Please make it so sorting an array puts all items in the correct alphabetal order
 var data = [
 	'ACL',
 	'accelerated graphics port',
