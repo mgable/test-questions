@@ -168,6 +168,6 @@ var data = [
 
 console.info(data.sort()) //["ACL", "ASP", "ATM", "Active Server Page", "Address Resolution Protocol", "American Standard Code For Information Interchange", "accelerated graphics port"]
 
-//What we want the return to be is ["ACL", "accelerated graphics port", "Address Resolution Protocol", "American Standard Code For Information Interchange", "Active Server Page", "ATM", "ASP"]
+//What we want the return to be is ["accelerated graphics port", "ACL", "Active Server Page", "Address Resolution Protocol", "American Standard Code For Information Interchange", "ASP", "ATM"]
 
 
