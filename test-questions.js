@@ -1,8 +1,9 @@
 // Please save all your work in https://jsfiddle.net/ 
-// Return the jsfiddle.net link to your work
+// Return the jsfiddle.net links to your work
 // Answer five out of the seven questions
 // Use test data when provided, however your functions should work with any similiarly structured data
 // Use any additional libraries you like
+// Error trapping is optional
 // If you have any questions about this test, please email mgable@marketshare.com
 
 // 1: Write a function that searches collection "projects" to find the object with the lowest "e" value and return that object's "i" value.
@@ -24,7 +25,7 @@ var data = [[[1,2,3,4,5],[[1],[2],[3],[4],[5],[6],[[1]]],[9,8,7,6,5,[1,2,3]]],[1
 
 // 6: Write a HTML layout which has three nested div's which are all different widths and heights but are all horizonally and vertically centered within each other and then centered vertically and horizonally within the body. See example here - https://raw.githubusercontent.com/mgable/test-questions/master/question-6.jpg
 
-// 7: write a function that arranges collection "scenarios" by "createdOn" in descending order (most current first) and outputs the results.
+// 7: write a function that arranges collection "scenarios" by "createdOn" in descending order (most current first) and returns the results.
 
 var scenarios = [{
   "id":3,
