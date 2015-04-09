@@ -1,6 +1,6 @@
-// Please save all your work in https://jsfiddle.net/ 
-// Return the jsfiddle.net links to your work
-// Answer five out of the seven questions
+// Please save all your work as separate fiddles at https://jsfiddle.net/ 
+// Return the jsfiddle.net links to your work, one link per question
+// Answer at least five out of the seven questions (you can answer them all if you like)
 // Use test data when provided, however your functions should work with any similiarly structured data
 // Use any additional libraries you like
 // Error trapping is optional
