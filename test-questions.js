@@ -4,7 +4,7 @@
 // Use test data when provided, however your functions should work with any similiarly structured data
 // Use any additional libraries you like
 // Error trapping is optional
-// If you have any questions about this test, please email mgable@marketshare.com
+// If you have any questions about this test, please email mark.gable@drinks.com
 
 // 1: Write a function that searches collection "projects" to find the object with the lowest "e" value and return that object's "i" value.
 // getLowestValue([{i:10, e: 100},{i:20, e: 200}]); // returns 10
